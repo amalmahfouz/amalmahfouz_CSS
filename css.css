@@ -1,0 +1,95 @@
+*{ 
+    font-family:  Times ;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background:#eee;
+}
+
+
+  section{
+    padding:2rem 9%;
+  }
+
+  .btn{
+      margin-top: 1rem;
+      display: inline-block;
+      padding: .8rem 3rem;
+      font-size: 1.7rem;
+      border-radius: 0.5rem;
+      border: 0.2rem solid blue;
+      background-color: blue;
+      cursor: pointer;
+  }
+
+  .btn:hover{
+    background:rgba(149, 148, 238, 0.2);
+    color:blue;
+  }
+  
+  header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    background:rgb(224, 222, 222);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem  9%;
+  }
+
+  header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+  }
+
+  header .navbar a{
+    color:rgb(165, 161, 161);
+    font-size: 1.6rem;
+    margin:0 .8rem;
+  }
+  
+  header .navbar a:hover{
+    color:blue;
+  }
+  .home{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(image/4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding-top: 17rem;
+   padding-bottom: 10rem;
+  }
+
+  .home .content{
+     text-align: center;
+     width: 70rem;
+  }
+
+  .home .content h3{
+      color: rgb(255, 255, 255);
+      font-size: 1.2rem;
+  }
+
+  .home .content p{
+      font-size: 3rem;
+      color: #fff;
+  }
+
+
+  
